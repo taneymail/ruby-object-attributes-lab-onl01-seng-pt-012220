@@ -1,5 +1,5 @@
 class Dog 
-  
+    attr_accessor :breed
   def name = (dogs_name)
     @name = dogs_name
   end
