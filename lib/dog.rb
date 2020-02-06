@@ -1,20 +1,14 @@
-class Dog 
-    attr_accessor :breed
-  def name = (dogs_name)
-    @name = dogs_name
-  end
-  
-  def name
-    @name = "Fido"
+class Dog
+  attr_accessor :breed
+  def name=(name)
+    @name = name 
   end 
-  
-  def breed = (dogs_breed)
-    @breed = dogs_breed 
-  
-  def breed
-    @breed = "Beagle" 
-  end  
-end  
+
+  def name
+    @name 
+  end
+
+end 
 
     
   
