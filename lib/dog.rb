@@ -11,7 +11,7 @@ class Dog
     @breed = dogs_breed 
   
   def breed
-    @breed = "" 
+    @breed = "Beagle" 
   end  
 end  
 
